@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lotteryAgent:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>lotteryAgent</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="lotteryAgent.war">
+      <element id="artifact" artifact-name="lotteryAgent:war exploded" />
+    </root>
+  </artifact>
+</component>
